@@ -1,6 +1,9 @@
 'use strict';
 
 module.exports = [{
+  resource: 'organizations',
+  name: 'list'
+}, {
   resource: 'roles',
   name: 'create'
 }, {

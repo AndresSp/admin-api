@@ -51,6 +51,12 @@ module.exports = {
       name: 'update',
       createdAt: new Date(),
       updatedAt: new Date()
+    }, {
+      id: uuid(),
+      resource: 'organizations',
+      name: 'list',
+      createdAt: new Date(),
+      updatedAt: new Date()
     }];
 
     return action.bulkInsert('permissions', permissions);
